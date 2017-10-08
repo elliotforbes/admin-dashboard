@@ -8,3 +8,20 @@ body {
     margin: 0 !important;
     padding: 0 !important;
 }
+
+.dot {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 3px;
+    border-radius: 100%;
+    float: left;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: greenyellow;
+}

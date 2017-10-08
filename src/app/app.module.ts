@@ -10,12 +10,14 @@ import { NewComponent } from './user/new/new.component';
 import { EditComponent } from './user/edit/edit.component';
 import { TaskComponent } from './task/task.component';
 import { StatsComponent } from './stats/stats.component';
+import { ConfigComponent } from './config/config.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'user', component: UserComponent },
   { path: 'task', component: TaskComponent },
-  { path: 'stats', component: StatsComponent }
+  { path: 'stats', component: StatsComponent },
+  { path: 'config', component: ConfigComponent }
 ]
 
 
@@ -29,7 +31,8 @@ const appRoutes: Routes = [
     NewComponent,
     EditComponent,
     TaskComponent,
-    StatsComponent
+    StatsComponent,
+    ConfigComponent
   ],
   imports: [
     BrowserModule,

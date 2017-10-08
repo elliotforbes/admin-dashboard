@@ -1,0 +1,8 @@
+.content-wrapper {
+    position: fixed;
+    overflow: scroll;
+    top: 65px;
+    left: 70px;
+    right: 0px;
+    bottom: 0px;
+}

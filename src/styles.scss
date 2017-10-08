@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #F1F1F4;
+}
+
+.col {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 3px;
+    border-radius: 100%;
+    float: left;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.component-wrapper {
+    padding: 20px;
+    .component {
+        background-color: white;
+        width: 100%;
+        height: auto;
+        border-left: 2px solid #F94046;
+        box-shadow: 0px 0px 15px #ccc;
+        margin-bottom: 20px;
+
+        .component-title {
+            width: 100%;
+            border-bottom: 1px solid #F1F1F3;
+            padding: 10px 20px;
+        }
+
+        .component-body {
+            padding: 10px 20px;
+        }
+
+        h3{
+            font-size: 18px;
+            small {
+                text-transform: uppercase;
+                color: #9f9f9f;
+            }
+        }
+        .highlights {
+            min-height: 200px;
+            padding: 10px 20px;
+            background-color: #FFEBEC;
+        }
+    }        
+}
+.card-holder {
+    padding: 20px;
+    .action-card {
+        background-color: #EDEDF0;
+        width: 90%;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 30px;
+        color: #9F9FA0;
+        font-size: 12x;
+        span {
+            color: black;
+            font-size: 22px;
+        }
+    }
+}
+
+.clear {
+    clear:both;
+}
